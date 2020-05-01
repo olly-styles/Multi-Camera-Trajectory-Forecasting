@@ -22,9 +22,10 @@ DEBUG_MODE = False
 
 # ########## DATASET CONFIG ########## #
 NUM_CAMERAS = 15
-MODEL_SAVE_PATH = '../../data/models/gru/'
-PREDICTIONS_SAVE_PATH = '../../data/predictions/gru/'
-INPUT_DATA_PATH = '../../data/cross_validation/'
+DATA_PATH = '../../data/'
+MODEL_SAVE_PATH = DATA_PATH + 'models/gru/'
+PREDICTIONS_SAVE_PATH = DATA_PATH + 'predictions/gru/'
+INPUT_DATA_PATH = DATA_PATH + 'cross_validation/'
 
 
 network_args = {'device': DEVICE,

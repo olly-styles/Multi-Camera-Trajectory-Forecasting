@@ -23,9 +23,10 @@ DEBUG_MODE = False
 
 # ########## DATASET CONFIG ########## #
 NUM_CAMERAS = 15
-MODEL_SAVE_PATH = '../../data/models/fully_connected/'
-PREDICTIONS_SAVE_PATH = '../../data/predictions/fully_connected/'
-INPUT_DATA_PATH = '../../data/cross_validation/'
+DATA_PATH = '../../data/'
+MODEL_SAVE_PATH = DATA_PATH + 'models/fully_connected/'
+PREDICTIONS_SAVE_PATH = DATA_PATH + 'predictions/fully_connected/'
+INPUT_DATA_PATH = DATA_PATH + 'cross_validation/'
 
 
 network_args = {'device': DEVICE,
