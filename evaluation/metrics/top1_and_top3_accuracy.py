@@ -1,7 +1,8 @@
 import numpy as np
 
-GROUND_TRUTH_PATH = '../../data/cross_validation/labels/'
-PREDICTED_PATH = '../../data/predictions/'
+DATA_PATH = '../../data/'
+GROUND_TRUTH_PATH = DATA_PATH + 'cross_validation/labels/'
+PREDICTED_PATH = DATA_PATH + 'predictions/'
 NUM_FOLDS = 5
 
 MODELS = ['shortest_realworld_distance', 'most_common_transition', 'most_similar_trajectory', 'hand_crafted_features', 'fully_connected', 'lstm', 'gru']
@@ -11,8 +12,8 @@ for model in MODELS:
     top_3s = []
     for fold_num in range(1, NUM_FOLDS + 1):
         fold = str(fold_num)
-        ground_truth_labels = np.load(GROUND_TRUTH_PATH + 'test_fold' + fold + '.npy')
-        predictions = np.load(PREDICTED_PATH + model + '/fold_' + fold + '.npy')
+        ground_truth_labels = np.load(GROUND_TRUTH_PATH + 'test_fold' + fold + '.npy').astype(int)
+        predictions = np.load(PREDICTED_PATH + model + '/fold_' + fold + '.npy').astype(int)
         correct_top_1 = 0
         correct_top_3 = 0
         for row in range(len(ground_truth_labels)):
