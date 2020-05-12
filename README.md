@@ -4,6 +4,8 @@ This repo contains information on the Warwick-NTU Multi-camera Forecasting datab
 
 Olly Styles, Tanaya Guha, Victor Sanchez, Alex C. Kot, “Multi-Camera Trajectory Forecasting: Pedestrian Trajectory Prediction in a Network of Cameras”, IEEE Conference on Computer Vision and Pattern Recognition Workshops, 2020
 
+Paper link: https://arxiv.org/abs/2005.00282
+
 <p align="center"> 
 <img src="mctf.jpg" width=50%>
 </p>
