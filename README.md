@@ -16,6 +16,8 @@ Paper link: https://arxiv.org/abs/2005.00282
 
 2021.08.11 - Cleaned annotations, preprocessing new MCTF problems, more MCTF models, multi-target MCTF preprocessing. Updated annotations are avaiable upon dataset request, and new code is available in the our new repositry, [[Trajectory Tensors](https://github.com/olly-styles/Trajectory-Tensors)]. 
 
+2024.04.13 - Some files in WNMF have become corrupt - these are `WNMF_videos/day_20/departures/departure_027.mp4` and `WNMF\data\reid_features\departure_features_day_3.npy`
+
 
 
 ## Accessing WNMF
