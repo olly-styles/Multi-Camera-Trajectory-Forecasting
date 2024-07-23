@@ -21,7 +21,7 @@ Paper link: https://arxiv.org/abs/2005.00282
 
 
 ## Accessing WNMF
-If you are interested in downloading the WNMF dataset, please download a copy of our [[Release Agreement](https://github.com/olly-styles/Multi-Camera-Trajectory-Forecasting/blob/master/WNMF%20release%20agreement.pdf)]. After reading the terms, fill in the information and send the completed agreement to the email address shown in the document. We will then send you the link and password to access the dataset.
+If you are interested in downloading the WNMF dataset, please see [[this page](https://rose1.ntu.edu.sg/dataset/Warwick-NTU/)] to request access. 
 
 ## Dataset details
 
